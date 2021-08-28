@@ -13,4 +13,4 @@ adicionei também a funcionalidade de ir para o topo da página.
 ![Captura Bikcraft](/captura-bikcraft.png)
 
 ## Resultado Final
-Confira o projeto publicado no Github Pages: https://andersonmendes567/github.io/bikcraft/
+Confira o projeto publicado no Github Pages: https://andersonmendes567.github.io/bikcraft/
