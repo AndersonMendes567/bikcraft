@@ -1,0 +1,70 @@
+/* introdução blog */
+.intro-blog {
+  margin-top: 92px;
+  height: 160px;
+  background-color: black;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-blog h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.intro-blog h1::after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #fff;
+  margin: 7px auto 15px auto;
+  border: none;
+  border-radius: 2px;
+}
+
+/* notícias */
+.noticias {
+  padding: 40px 0;
+}
+
+.noticias .lista-noticias {
+  margin-bottom: 25px;
+}
+
+.noticias .lista-noticias li:nth-child(odd) {
+  background-color: var(--var-cor-primaria);
+}
+
+.noticias .lista-noticias li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px;
+  color: black;
+  font-size: 1.78em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.noticias .lista-noticias li a:hover {
+  background-color: black;
+  color: var(--var-cor-primaria);
+}
+
+.noticias .lista-noticias li a i {
+  font-size: 25px;
+}
+
+.noticias > a {
+  color: var(--var-cor-primaria);
+  text-transform: uppercase;
+  font-size: 20px;
+}

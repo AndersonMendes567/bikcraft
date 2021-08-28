@@ -1,0 +1,171 @@
+/*==== INTRODUÇÃO CONTATO =========*/
+
+section.intro-contato {
+  background: #000 url(../images/bg-contato.jpg) center no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 160px;
+  margin-top: 92px;
+
+  color: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-contato h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.intro-contato h1::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #fff;
+  margin: 7px auto 15px auto;
+  border: none;
+  border-radius: 2px;
+}
+
+.intro-contato p {
+  text-align: center;
+  line-height: 20px;
+}
+
+
+/*==== ORÇAMENTO ==================*/
+.budget {
+  padding: 40px 0;
+  color: black;
+}
+
+
+.budget h3::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  border: none;
+  border-radius: 2px;
+  background-color: var(--var-cor-primaria);
+  margin: 7px auto 40px auto;    
+}
+
+.budget .form {
+  padding-right: 60px;
+  font-size: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form label {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form input, .form textarea, button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 4px solid #FEC63E;
+}
+
+.form input {
+  margin-bottom: 15px;
+  height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form textarea {
+  margin-bottom: 20px;
+  height: 120px;
+  max-width: 100%;
+  resize: vertical;
+  max-height: 300px;
+  min-height: 45px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FEC63E;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: min-content;
+  padding: 7px 40px;
+  letter-spacing: .1em;
+}
+
+.form button:hover {
+  transition: 300ms;
+  cursor: pointer;
+  color: black;
+  border-color: black;
+}
+
+.budget-content .dados {
+  padding-right: 60px;
+}
+
+.dados .contact-dados {
+  margin-bottom: 30px;
+}
+
+.contact-dados p {
+  font-size: 18px;
+}
+
+.budget .budget-content .dados {
+  padding-right: 0;
+}
+
+.dados h4 {
+  color: var(--var-cor-primaria);
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.dados p {
+  line-height: 25px;
+}
+
+/* endereço */
+.address-dados {
+  margin-bottom:30px;
+}
+
+.address-dados address {
+  font-size: 18px;
+  font-style: normal;
+}
+
+/* social */
+
+
+
+.social-dados .social-list li a {
+    float: left;   
+    margin-right: 10px;
+    padding: 8px;
+    border: 3px solid var(--var-cor-primaria);
+}
+
+.social-dados .social-list li a:hover {
+  color: #000;
+  border-color: #000;
+}
+
+/* mapa */
+.mapa-contato {
+  padding-bottom: 60px;
+}

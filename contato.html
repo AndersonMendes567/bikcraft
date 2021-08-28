@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Bikcraft - Entre em contato com a gente - 21 9999-9999</title>
+    <meta name="description" content="Entre em contato com a gente, queremos de ouvir">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- metas tags para compartilhamento e redes sociais -->
+    <meta property="og:type" content="Website">
+    <meta property="og:title" content="Bikcraft - Entre em contato com a gente - 21 9999-9999">
+    <meta property="og:description" content="Entre em contato com a gente, queremos de ouvir">
+    <meta property="og:url" content="url-do-site-aqui/sobre.html">
+    <meta property="og:image" content="url-do-site/images/og-image.png">
+
+    <!-- estilos -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <script>
+      // verificar se o Javascript está rodando no navegador
+      document.documentElement.classList.add('js')
+    </script>
+  </head>
+  <body>
+    <!-- CABEÇALHO -->
+    <header class="header">
+      <div class="container">
+        <a class="grid-4" href="index.html">
+          <img src="images/bikcraft.svg" alt="Logo do Bikcraft" />
+        </a>
+        <nav class="grid-12 header_menu">
+          <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="portfolio.html">portfólio</a></li>
+            <li>
+              <a class="menu-ativo" href="contato.html">Contato</a>
+            </li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- INTRODUÇÃO CONTATO -->
+      <section class="intro-contato">
+        <h1 data-anime="400">Contato</h1>
+        <p data-anime="800">tire suas dúvidas com a gente</p>
+      </section>
+
+      <!-- DADOS CONTATO -->
+      <section class="budget" data-anime="1200">
+        <div class="container budget-content">
+          <form class="form grid-8 formphp" method="POST" action="./enviar.php">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" required />
+            <label for="menssagem">Menssagem</label>
+            <textarea
+              name="menssagem"
+              id="menssagem"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+            <button id="enviar" type="submit">Enviar</button>
+          </form>
+          <div class="dados grid-8">
+            <div class="contact-dados">
+              <h4>Dados</h4>
+              <p>+55 21 9999-9999</p>
+              <p>contato@bikcraft.com</p>
+            </div>
+            <div class="address-dados">
+              <address>
+                <p>Rua Ali Perto - Boatafogo</p>
+                <p>Rio de Janeiro - Rio de Janeiro - Brasil</p>
+              </address>
+            </div>
+            <div class="social-dados">
+              <h4>Redes sociais</h4>
+              <ul class="social-list">
+                <li>
+                  <a href="https://facebook.com" target="_blank" rel="external"
+                    ><img
+                      src="images/redes-sociais/facebook.svg"
+                      alt="Logo facebook"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com" target="_blank" rel="external"
+                    ><img
+                      src="images/redes-sociais/instagram.svg"
+                      alt="Logo Instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com" target="_blank" rel="external"
+                    ><img
+                      src="images/redes-sociais/twitter.svg"
+                      alt="Logo Twitter"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MAPA CONTATO -->
+      <section class="container mapa-contato">
+        <a
+          href="https://www.google.com.br/maps/place/Jardim+das+Ac%C3%A1cias,+Jana%C3%BAba+-+State+of+Minas+Gerais,+39440-000/@-15.8567307,-43.3004858,15z/data=!4m5!3m4!1s0x753cfbb6ae6797f:0xbe051dc16394c09e!8m2!3d-15.8542467!4d-43.3035055"
+          class="grid-16 mapa-conteudo"
+          target="_blank"
+          rel="external"
+        >
+          <img src="images/endereco-bikcraft.jpg" alt="Endereço do Bikcraft" />
+        </a>
+      </section>
+
+      <!-- QUEBRA -->
+      <div class="quebra">
+        <blockquote class="container quote_externo">
+          <p>
+            “O verdadeiro segredo da felicidade está em ter um genuíno interesse
+            por todos os detalhes da vida cotidiana.”
+          </p>
+          <cite>Willian Morris</cite>
+        </blockquote>
+      </div>
+
+      <!-- PARA O TOPO -->
+      <aside>
+        <a href="#" class="to-top-btn">topo</a>
+      </aside>
+    
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+      <div class="info-rodape">
+        <ul class="container">
+          <li class="footer-historia grid-8">
+            <h3>Nossa história</h3>
+            <p>
+              Quando iniciamos a Bikcraft queriamos apenas um produto que
+              adoraríamos utilizar. Eramos apaixonados por pedalar e também
+              por fazer as coisas com as nossas próprias mãos. Assim surgiu um
+              sonho na garagem da nossa casa.
+            </p>
+          </li>
+          <li class="footer-contato grid-4">
+            <h3>Contato</h3>
+            <ul>
+              <li>- +55 21 9999-9999</li>
+              <li>- contato@bikcraft.com</li>
+              <li>
+                <address>- Rua Ali Perto - Botafogo</address>
+              </li>
+            </ul>
+          </li>
+          <li class="footer-redes grid-4">
+            <h3>Redes sociais</h3>
+            <ul>
+              <li>
+                <a href="https://facebook.com" target="_blank" rel="external"
+                  ><img
+                    src="images/redes-sociais/facebook.svg"
+                    alt="Logo facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank" rel="external"
+                  ><img
+                    src="images/redes-sociais/instagram.svg"
+                    alt="Logo Instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank" rel="external"
+                  ><img
+                    src="images/redes-sociais/twitter.svg"
+                    alt="Logo Twitter"
+                /></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="direitos-rodape">
+        <div class="container">
+          <div class="grid-16">
+            <p>Bikcraft 2021 Alguns direitos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="scripts/simple-anime.js"></script>
+    <script src="scripts/simple-form.js"></script>
+    <script src="scripts/script.js"></script>
+
+  </body>
+</html>
