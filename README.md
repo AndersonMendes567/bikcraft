@@ -10,7 +10,7 @@ O projeto do curso foi o Bikcraft, um site de bicicletas personalizadas.
 O site é responsivo e utilizamos algumas bibliotecas Javascrpt de terceiros para algumas interatividades e
 adicionei também a funcionalidade de ir para o topo da página.
 
-![Captura Bikcraft](/captura-bikcraft.png)
+![Captura Bikcraft](assets/captura-bikcraft.png)
 
 ## Resultado Final
 Confira o projeto publicado no Github Pages: https://andersonmendes567.github.io/bikcraft/
