@@ -47,8 +47,3 @@ window.addEventListener('scroll', function(){
     toTopBtn.classList.remove('active')
   }
 })
-
-toTopBtn.addEventListener('click', function(){
-  window.scrollY === 0;
-})
- 
